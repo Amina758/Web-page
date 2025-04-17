@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-globe"></i> Welcome to My Website</h1>
+        <nav>
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#services"><i class="fas fa-cogs"></i> Services</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content-section">
+            <h2>Home</h2>
+            <div class="hero-section">
+                <img src="https://picsum.photos/800/400" alt="Hero Image" class="hero-image">
+                <p class="hero-text">Welcome to our website! We're glad you're here.</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About Us</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-users card-icon"></i>
+                    <h3>Our Team</h3>
+                    <p>Dedicated professionals working together.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-trophy card-icon"></i>
+                    <h3>Our Mission</h3>
+                    <p>Delivering excellence in everything we do.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chart-line card-icon"></i>
+                    <h3>Our Growth</h3>
+                    <p>Continuously evolving and improving.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and applications.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Apps</h3>
+                    <p>iOS and Android development.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design</h3>
+                    <p>Creative and responsive designs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
